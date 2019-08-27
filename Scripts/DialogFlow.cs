@@ -27,10 +27,8 @@ public class DialogFlow : MonoBehaviour
     //Defining the required data
     //to get agent name and session id refer to the Read.md to file
     private string session, 
-        agent = "chatbot-xlpadd",
-        sessionId = "ya29.c.elpvb0oajcw3o7dl1fyrmlpwdfmwkro_" +
-        "dwsgs8w4oa0wglxryknvu7ehuwdsj-zc0zliejaep1eirb" +
-        "seognzdwesaiukaxbds8efdsfeywgyepsi46vjytvxyhi";
+        agent = "AGENT NAME",
+        sessionId = "INSERT SESSION KEY HERE";
         
 
     private void Start()
@@ -76,7 +74,7 @@ public class DialogFlow : MonoBehaviour
         //Need to set the environment variable to create a the client
         Environment.SetEnvironmentVariable(
             "GOOGLE_APPLICATION_CREDENTIALS",
-            @"..\chatbot-xlpadd-fb9bd38f4d22.json");
+            @"INSERT JSON FILE LOCATION HERE");
         client = SessionsClient.Create();//creating the client
 
         //Creating two AudioSource objects through code
