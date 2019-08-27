@@ -4,7 +4,7 @@
 * Visual Studio
 * GoogleVR Unity Library
 
-##Setup
+## Setup
 Make a fresh Unity Project
 Clone this project into assest
 Once you are done make sure GoogleVR is added within Unity -> See [Google VR](https://github.com/googlevr/gvr-unity-sdk)
