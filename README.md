@@ -18,7 +18,7 @@ One you have added all these you will need to add the Images and the Materials (
 You should be able to download them from the Google Drive. One you download them put them in the assets folder as well.
 (Since these are large files this will take some time)
 
-Finally, create a service account on Google Cloud Dialogflow and get the Json and assign it's loaction in code in DialogFlow.cs
+Finally, follow the steps [here](https://cloud.google.com/video-intelligence/docs/common/auth) to authenticate with googles servers.
 
 Check if it runs.
 If it doesn't run then use the package manager (in visual studio) to download Google Dialogflow using
