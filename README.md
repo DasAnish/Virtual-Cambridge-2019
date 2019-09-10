@@ -18,6 +18,7 @@ One you have added all these you will need to add the Images and the Materials (
 You should be able to download them from the Google Drive. One you download them put them in the assets folder as well.
 (Since these are large files this will take some time)
 
+You will have to create a google cloud account and add agent using the import option.
 Finally, follow the steps [here](https://cloud.google.com/video-intelligence/docs/common/auth) to authenticate with googles servers.
 
 Check if it runs.
